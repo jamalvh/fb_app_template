@@ -15,7 +15,7 @@ flutter pub get
 Note: messagingSenderId is first part of appId. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Ex) appId = 1:287727538614:ios:a09f09086b7e5ed1963117, messagingSenderId: 287727538614
 # Android:
-1) Paste google-services.json into android/src/
+1) Paste google-services.json into android/app/
 2) Fill in information for Android in DefaultFirebaseOptions from google-services.json <br>
 Note: API Key is not the same as for iOS.
 
