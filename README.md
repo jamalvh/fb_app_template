@@ -17,7 +17,7 @@ Note: messagingSenderId is first part of appId. <br>
 # Android:
 1) Paste google-services.json into android/app/
 2) Fill in information for Android in DefaultFirebaseOptions from google-services.json <br>
-Note: API Key is not the same as for iOS.
+Note: API Key and appId are not the same as for iOS.
 
 # 3) Ensure Firebase is initialized in main():
 void main() async { <br>
