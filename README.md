@@ -1,9 +1,7 @@
 # Firebase Setup Tutorial (using this template)
 
 # 1) Install Firebase Dependencies:
-flutter pub add firebase_core <br>
-flutter pub add firebase_auth <br>
-flutter pub add cloud_firestore <br>
+flutter pub get
 
 # 2) Configure Files and Firebase Options
 # Web:
