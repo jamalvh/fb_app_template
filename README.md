@@ -22,3 +22,9 @@ void main() async { <br>
 &nbsp;&nbsp;&nbsp;&nbsp;await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform); <br>
 &nbsp;&nbsp;&nbsp;&nbsp;runApp(const MyApp()); <br>
 } <br>
+
+# --- If Running Into Version Errors ---
+# iOS:
+Check ios/Runner/Podfile for platform version (second line)
+# Android:
+Check android/app/build.gradle ndkVersion & minSdk versions.
