@@ -11,7 +11,7 @@ flutter pub get
 1) Fill in information for Web in DefaultFirebaseOptions via Copy/Paste from Firebase Web Setup Walkthrough.
 # iOS:
 1) Paste GoogleService-Info.plist into ios/Runner/
-2) Fill in information for iOS in DefaultFirebaseOptions from GoogleService-Info.plist
+2) Fill in information for iOS in DefaultFirebaseOptions from GoogleService-Info.plist, ***bundleName is com.example.{YOUR_APP_NAME}
 # Android:
 1) Paste GoogleService-Info.plist into ios/Runner/
 2) Fill in information for iOS in DefaultFirebaseOptions from GoogleService-Info.plist
