@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676566799863",
+    "project_id": "cube360-9f1a0",
+    "storage_bucket": "cube360-9f1a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676566799863:android:d4d107a1317f93825fcaf2",
+        "android_client_info": {
+          "package_name": "com.gdsc.cube360"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALTf1-xWUBwVjCVP-OgS49uOB03Fw_sAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
