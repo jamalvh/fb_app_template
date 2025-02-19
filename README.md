@@ -16,8 +16,8 @@ flutter pub add cloud_firestore <br>
 2) Fill in information for iOS in DefaultFirebaseOptions from GoogleService-Info.plist
 
 # 3) Ensure Firebase is initialized in main():
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const MyApp());
-}
+void main() async { <br>
+&nbsp;&nbsp;&nbsp;&nbsp;WidgetsFlutterBinding.ensureInitialized(); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;runApp(const MyApp()); <br>
+} <br>
