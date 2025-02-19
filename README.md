@@ -1,16 +1,23 @@
-# cube360
+# Firebase Setup Tutorial (using this template)
 
-A new Flutter project.
+# 1) Install Firebase Dependencies:
+flutter pub add firebase_core <br>
+flutter pub add firebase_auth <br>
+flutter pub add cloud_firestore <br>
 
-## Getting Started
+# 2) Configure Files and Firebase Options
+# Web:
+1) Fill in information for Web in DefaultFirebaseOptions via Copy/Paste from Firebase Web Setup Walkthrough.
+# iOS:
+1) Paste GoogleService-Info.plist into ios/Runner/
+2) Fill in information for iOS in DefaultFirebaseOptions from GoogleService-Info.plist
+# Android:
+1) Paste GoogleService-Info.plist into ios/Runner/
+2) Fill in information for iOS in DefaultFirebaseOptions from GoogleService-Info.plist
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 3) Ensure Firebase is initialized in main():
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  runApp(const MyApp());
+}
